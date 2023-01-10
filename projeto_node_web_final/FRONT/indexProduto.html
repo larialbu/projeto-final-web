@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="produto.css">
+    <script src="index.js"></script>
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+            <!--FORMULÁRIO DE CADASTRO DE PRODUTO-->
+            <div id="login">
+                  <h1>Cadastro de Produto</h1> 
+                  <p> 
+                    <label for="nome_login">Digite o produto que deseja cadastrar:</label>
+                    <input id="nome_login" name="nome_login" required="required" type="text" placeholder="Ex: Produto"/>
+                  </p>
+
+                  <p> 
+                    <label for="valor">valor:</label>
+                    <input id="valor" name="valor" required="required" type="text" placeholder="Ex: Produto"/>
+                  </p>
+
+                  <label for="descricao">descricao:</label>
+                  <p> 
+                    
+                    <textarea name="descricao" id="descricao" cols="160" rows="10"></textarea>
+                  </p>
+                   
+                  <p> 
+                    <button onclick="cadastrarProduto()">Cadastrar</button>
+                  </p>
+              </div>
+</body>
+</html>
